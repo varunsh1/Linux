@@ -1,0 +1,42 @@
+vi and nano editors commands
+
+-----------------------------
+
+vi editor:  
+
+Step 1: To open the file using vi editors
+
+vi /home/file/varun.txt
+
+Step 2: by default it opens a file in command mode, to get into the insert mode press i
+
+press: i
+
+Step 3: once you have done with your editing, press esc to return to the command mode
+
+press: esc
+
+Step 4: then to save and quit the filename
+
+press: :wq
+
+Step 5: to jump to the last line
+
+press: Shift+G
+
+
+--------------------------------------------------------
+
+nano editor
+
+Step 1: to open the file using nano editor, it will open the file in edit mode
+
+nano /home/file/varun.txt
+
+Step 2: to save the file after editing
+
+press: ctrl+O
+
+Step 3: to exit from the nano editors
+
+press: ctrl+x
