@@ -1,0 +1,27 @@
+Screen : screen is used to manage the session on terminal
+
+---------------------------------------------------------
+
+1. To list the available screens
+
+screen -ls
+
+
+2. To create and attach to the new screen
+
+screen -S screen-name
+
+
+3. To detach the current screen
+
+press: ctrl+A then ctrl+D
+
+
+4. To re-attach the available screen
+
+screen -r screen-name
+
+
+5. To remove the available screen
+
+screen -X -S screen-id quit
