@@ -1,0 +1,46 @@
+Day2 commands: cat, mv, cp, vim 
+
+---- copy f1 content into f2 -----
+cat f1 >> f2
+
+
+---- cut -----
+mv -vf abc/f1 fold1/
+// move verboseforcefully source destination
+
+
+----- copy file --------
+cp -rvf abc/f2 fold1
+// copy -recursivelyverboseforcefully source destination
+
+----- filename rename ----
+mv Music song
+
+----- multiple commands depends on each other, first command output is the input of next command-----
+ls -l | head -n 8
+// list of current directory then(pipe operator) print top 8 lines
+
+ls -l | head -n 10 | tail -n 5
+// mid lines
+
+------- vim editor ------
+// line numbers in editor: 
+:se nu
+
+// no line in editor
+:se nonu
+
+// search are in file
+/are
+
+// 1 line copy
+y
+
+// 5 lines copy/yanked
+5yy
+
+// paste or put
+p
+
+// copy words
+2yaw
