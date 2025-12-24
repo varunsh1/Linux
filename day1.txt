@@ -1,0 +1,84 @@
+Day1 commands: ls, mkdir, touch, cat, rm, history, wc, head, tail
+
+-------- list command ----------
+ls -larth
+// list longlistingformat allincludeshiddenfiles reverseorder timebasedsorting humanreadablefilesize
+
+
+-------- make folders --------
+mkdir fold1
+// make directory/folder fold1
+
+mkdir fold1 fold2 fold3
+// make directories fold1 fold2 fold3
+
+mkdir -p fold1/fold2/fold3
+// make directory inside directory fold1/fold2/fold3
+
+mkdir ab{1..10}
+// make multiple directories ab1, ab2, ab3 .... ab10
+
+mkdir {x..y}{1..3}
+// make multiple directories x1, x2, x3, y1, y2, y3
+
+
+-------- create files ---------
+touch file1.txt
+// make file with name file1.txt
+
+
+
+-------- read file ----------
+cat file1.txt
+
+-------- write in file --------
+cat > file1.txt
+// overwrite in file1.txt
+
+cat >> file1.txt
+// append in file1.txt
+
+
+--------- delete directories or files -------
+rm -rvf fold1
+// remove recursively(files under directories and all) verbose forecfully(to delete opened files, system files)
+
+rm -rvf *
+// remove all 
+
+-------- check machine information -------
+hostnamectl
+
+
+hostnamectl set-hostname NewHostName
+// update new hostname
+
+-------- history -----------
+history
+// to check the terminal commands history
+
+history -c 
+// clear history 
+
+--------- word count ------
+wc file1.txt
+// no of lines  words  chars
+
+
+wc -l file1.txt
+// no of lines
+
+wc -w file1.txt
+// no of words
+
+wc -c file1.txt
+// no of characters
+
+
+--------- head tail --------
+head -n 2 file.txt
+// top 2 lines 
+
+tail -n 2 file.txt
+// last 2 lines
+
